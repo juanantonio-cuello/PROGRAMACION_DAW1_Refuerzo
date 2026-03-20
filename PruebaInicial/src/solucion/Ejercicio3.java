@@ -1,4 +1,4 @@
-package profesor;
+package solucion;
 
 
 import java.time.Year;

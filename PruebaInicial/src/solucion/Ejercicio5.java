@@ -1,4 +1,4 @@
-package profesor;
+package solucion;
 
 
 import java.util.Scanner;
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author Juan Antonio Cuello Alarcon <juanantonio.cuello@murciaeduca.es>
  */
-public class Ejercicio4 {
+public class Ejercicio5 {
 
     /**
      * @param args the command line arguments
@@ -20,19 +20,25 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Scanner teclado = new Scanner(System.in);
-        int suma = 0;
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < 4; i++) {
-            System.out.print("Introduce número " + (i+1) + ": ");
-            int num = Integer.parseInt(teclado.nextLine());
-            suma = suma + num;
+        int num = 1;
+
+        while (num != 0) {
+
+            System.out.print("Introduce un número (0 para salir): ");
+            num = sc.nextInt();
+
+            if (num > 0) {
+                System.out.println("El número es positivo");
+            } 
+            else if (num < 0) {
+                System.out.println("El número es negativo");
+            }
+
         }
 
-        System.out.println("La suma total es: " + suma);
-
-        teclado.close();
-        
+        sc.close();
         
     }
     

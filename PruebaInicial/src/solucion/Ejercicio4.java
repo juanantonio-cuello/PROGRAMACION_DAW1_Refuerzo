@@ -1,7 +1,6 @@
-package alumno;
+package solucion;
 
 
-import profesor.*;
 import java.util.Scanner;
 
 /*
@@ -13,24 +12,28 @@ import java.util.Scanner;
  *
  * @author Juan Antonio Cuello Alarcon <juanantonio.cuello@murciaeduca.es>
  */
-public class Ejercicio1 {
+public class Ejercicio4 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner teclado=new Scanner (System.in);
-        int radio;
-        double area;
         
-        System.out.print("Dime el radio:");
-        radio = Integer.parseInt(teclado.nextLine());
+        Scanner teclado = new Scanner(System.in);
+        int suma = 0;
+
+        for (int i = 0; i < 4; i++) {
+            System.out.print("Introduce número " + (i+1) + ": ");
+            int num = Integer.parseInt(teclado.nextLine());
+            suma = suma + num;
+        }
+
+        System.out.println("La suma total es: " + suma);
+
+        teclado.close();
         
-        area = Math.PI * Math.pow(radio, 2);
         
-        System.out.println("El area de la circunferencia de radio "+radio+" es "+area);
-        System.out.printf("El area de la circunferencia de radio %d es %.3f\n",radio,area);
     }
     
 }
