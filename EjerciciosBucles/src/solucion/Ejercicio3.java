@@ -52,6 +52,8 @@ public class Ejercicio3 {
             System.out.print("Introduce la clave:");
             numeroIntroducido=entrada.nextLine();
 
+            //ERRORES: comprobar tamaño del numero
+            
             
             //Mensaje si acierto o fallo
             if (numeroIntroducido.equals(secreto)){
