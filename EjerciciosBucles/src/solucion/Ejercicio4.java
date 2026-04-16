@@ -4,6 +4,7 @@
  */
 package solucion;
 
+import profesor.*;
 import java.util.Scanner;
 
 /**
