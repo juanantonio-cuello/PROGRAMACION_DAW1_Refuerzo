@@ -56,7 +56,7 @@ public class Ejercicio3 {
             //ERRORES: comprobar tamaño del numero
             
             
-            //Mensaje si acierto o fallo
+            //Mensaje si acierto. Si fallo no indico nada. Omito el ELSE
             if (numeroIntroducido.equals(secreto)){
                 System.out.println("\033[32mCAJA FUERTE DESBLOQUEDA\033[30m");
                 acertado = true;
