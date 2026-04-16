@@ -38,8 +38,11 @@ public class Ejercicio2 {
 //            
 //        }while(num!=0);
         
-        //Forma2 y con la mejora
         
+        //===============================================================
+        
+
+        //Forma2 y con la mejora
         do{
             System.out.print("Dime un numero (0 para parar):");
             num = sc.nextInt();
