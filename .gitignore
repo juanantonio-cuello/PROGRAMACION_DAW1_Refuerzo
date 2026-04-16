@@ -27,3 +27,8 @@ replay_pid*
 /PruebaInicial/build/
 /EjerciciosBucles/nbproject/private/
 /EjerciciosBucles/build/
+
+
+
+# no subo cualquier carpeta llamada profesor
+profesor/
