@@ -30,6 +30,8 @@ public class Ejercicio5 {
         int intento = 0;
         int numeroUsuario = -1;
 
+        System.out.println("CHEAT: "+numeroSecreto);
+        
         while (numeroUsuario != numeroSecreto) {
 
             System.out.print("Introduce un número (0-50): ");
