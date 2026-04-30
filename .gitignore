@@ -32,3 +32,5 @@ replay_pid*
 
 # no subo cualquier carpeta llamada profesor
 profesor/
+/EjerciciosArraysUnidimension/nbproject/private/
+/EjerciciosArraysUnidimension/build/
